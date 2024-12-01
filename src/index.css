@@ -1,0 +1,87 @@
+.container{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.head{
+  font-size: 3rem;
+  color: white;
+}
+
+body{
+  background-color: rgb(20, 20, 20);
+}
+
+.Add-btn{
+  font-size: 2.4rem;
+  background-color: rgb(2, 146, 2);
+  color: white;
+  border: none;
+  border-radius: 2px;
+  margin-left: 5px;
+  cursor: pointer;
+  transition: background-color 0.5s ease
+}
+
+.data{
+  font-size: 2.4rem;
+  border-radius: 5px;
+}
+
+.Text{
+  font-size: 3rem;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: none;
+  flex: 1;
+  max-width: 500px;
+}
+
+ol{
+  padding: 0px;
+  text-decoration: none;
+}
+
+.container2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  margin: 10px;
+  color: black;
+  border-radius: 10px;
+  height: 120px;
+}
+
+.Delete-btn{
+  font-size: 2.7rem;
+  background-color: rgb(196, 30, 30);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.5s ease
+}
+
+.Up-down{
+  cursor: pointer;
+  font-size: 2.3rem;
+  margin: 4px;
+  background-color: rgb(2, 194, 194);
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.5s ease
+}
+
+.Add-btn:hover{
+  background-color: rgb(2, 199, 2);
+}
+
+.Delete-btn:hover{
+  background-color: rgb(255, 32, 32);
+}
+
+.Up-down:hover{
+  background-color: rgb(3, 226, 226);
+}
